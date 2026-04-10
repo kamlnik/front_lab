@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clicker{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;  
+        }
+        button{
+            width: 100px;
+            height: 100px;
+            background: #518be7;
+            color: white;
+            border: none;
+            font-size: auto;
+            font-weight: auto;
+            padding: 0px 0px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            border-radius: 50%;
+            text-align: auto;
+            cursor: pointer;
+            transition: background 0.5s, transform 0.05s;
+        }
+        .info{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="clicker" class="clicker">
+        <button onclick="counter()"> <span id="clicker_text"></span> </button>
+    </div>
+    <div if="clicker_info" class="info"> Количество кликов в секунду: <span id="clicker_info"> 0.00</span> 1/s </div>
+    <script src="script.js" ></script>
+</body>
+</html>

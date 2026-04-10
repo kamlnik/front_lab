@@ -1,0 +1,32 @@
+        table{
+        background: #01ffe1;
+        width: 650px;
+        border-collapse: collapse;
+        text-align: center;
+        margin-bottom: 20px; 
+        margin-right: auto;
+        border: 1px solid #000000;
+        }
+        td {
+        text-align: left;
+	    padding: 10px;
+	    border: 1px solid rgb(0, 0, 0);
+        }
+        th{
+            padding: 10px;
+            text-align: left;
+            font-weight: normal;
+        }
+        
+        @media (min-width: 1024px){
+            #info_text2{ display: none;}
+            #info_text3{ display: none;}
+        }
+        @media (min-width: 768px) and (max-width: 1024px){
+            #info_text1{ display: none;}
+            #info_text3{ display: none;}
+        }
+        @media (max-width: 768px){
+            #info_text1{ display: none;}
+            #info_text2{ display: none;}
+        }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    button{
+        width: 100px;
+        height: 100px;
+        background: #d2d2d2;
+        color: rgb(0, 0, 0);
+        border: 1px;
+        font-size: auto;
+        font-weight: auto;
+        padding: 0px 0px;
+        text-align: auto;
+        cursor: pointer;
+        transition: background 0.5s, transform 0.05s;
+    } 
+    .calck{
+        width: auto;
+        height: auto;
+        background: #b60e0e11;
+        color: rgb(0, 0, 0);
+        border: 1px;
+        font-size: auto;
+        font-weight: auto;
+        padding: 0px 0px;
+        text-align: auto;
+    }
+    th{
+        width: 100px;
+        height: 100px;
+        background: #d2d2d2;
+        color: rgb(0, 0, 0);
+        border: 1px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        font-size: auto;
+        font-weight: auto;
+        text-align: right;
+        padding: 0px 50px;
+
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="calck">
+        
+    <table>
+        <thead> <th colspan="4"><span id="pole"> 0 </span> </th> </thead>
+        <tr>
+            <td> <button onclick="task('0')"> 0 </button></td>
+            <td> <button onclick="task(1)"> 1 </button></td>
+            <td> <button onclick="task(2)"> 2 </button></td>
+            <td> <button onclick="task('C')"> C </button></td>
+        </tr>
+        <tr>
+            <td> <button onclick="task(3)"> 3 </button></td>
+            <td> <button onclick="task(4)"> 4</button></td>
+            <td> <button onclick="task(5)"> 5</button></td>
+            <td> <button onclick="task('=')">= </button></td>
+        </tr>
+        <tr>
+            <td> <button onclick="task(6)">6 </button></td>
+            <td> <button onclick="task(7)"> 7</button></td>
+            <td> <button onclick="task(8)"> 8</button></td>
+            <td> <button onclick="task('+')">+ </button></td>
+        </tr>
+        <tr>
+            <td> <button onclick="task(9)">9 </button></td>
+            <td> <button onclick="task('*')">* </button></td>
+            <td> <button onclick="task('/')">/ </button></td>
+            <td> <button onclick="task('-')"> -</button></td>
+        </tr>
+    </table>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
